@@ -24,8 +24,8 @@ options are planned.
 %description -l pl
 Gmencoder jest graficzna nak³adk± na mplayer/mencoder przygotowan± do
 pracy w ¶rodowisku Gnome-2. Wspiera wiele kodeków, skalowanie obrazu,
-wyci±ganie napisów, 1, 2 a tak¿e 3 przebiegow± kompresjê. Wiele innych
-pomys³ów czeka na implementacjê.
+wyci±ganie napisów, 1-, 2- a tak¿e 3-przebiegow± kompresjê. Wiele
+innych pomys³ów czeka na implementacjê.
 
 %prep
 %setup -q
