@@ -1,0 +1,10 @@
+--- gmencoder-0.1.0/src/interface.c.orig	2003-06-12 17:48:49.000000000 +0200
++++ gmencoder-0.1.0/src/interface.c	2005-07-02 21:38:49.000000000 +0200
+@@ -687,6 +687,7 @@
+   strPrincipal.cmbCodecLav_items = g_list_append (strPrincipal.cmbCodecLav_items, (gpointer) _("wmv1 - Windows Media Video, version 1 (aka WMV7)"));
+   strPrincipal.cmbCodecLav_items = g_list_append (strPrincipal.cmbCodecLav_items, (gpointer) _("rv10 - an old RealVideo codec"));
+   strPrincipal.cmbCodecLav_items = g_list_append (strPrincipal.cmbCodecLav_items, (gpointer) _("mpeg1video - MPEG1 video :)"));
++  strPrincipal.cmbCodecLav_items = g_list_append (strPrincipal.cmbCodecLav_items, (gpointer) _("mpeg2video - MPEG2 video"));
+   strPrincipal.cmbCodecLav_items = g_list_append (strPrincipal.cmbCodecLav_items, (gpointer) _("huffyuv - lossless compression"));
+   strPrincipal.cmbCodecLav_items = g_list_append (strPrincipal.cmbCodecLav_items, (gpointer) _("\t\t\t\t\t\t\t\t\t\t"));
+   gtk_combo_set_popdown_strings (GTK_COMBO (strPrincipal.cmbCodecLav), strPrincipal.cmbCodecLav_items);
