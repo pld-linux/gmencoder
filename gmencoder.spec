@@ -1,12 +1,16 @@
+# TODO:
+# - make desktop file
+#
 Summary:	Gmencoder - front-end to mencoder
 Summary(pl):	Gmencoder - nak³adka na mencoder
 Name:		gmencoder
 Version:	0.1.0
-Release:	0.1
+Release:	0.2
 License:	GPL
 Group:		X11/Applications/Multimedia
 Source0:	http://dl.sourceforge.net/gmencoder/%{name}-%{version}.tgz
 # Source0-md5:	2b011c02f9a9cf3d94554a02d052c938
+Patch0:		%{name}-mpeg2.patch
 URL:		http://gmencoder.sourceforge.net/
 BuildRequires:	gettext-devel
 BuildRequires:	libgnomeui-devel
@@ -29,6 +33,7 @@ innych pomys³ów czeka na implementacjê.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %{__sed} -i 's,PATH_MP=.*,PATH_MP=/usr/bin,' etc/gmencoder_opts
