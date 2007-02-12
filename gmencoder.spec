@@ -2,7 +2,7 @@
 # - make desktop file
 #
 Summary:	Gmencoder - front-end to mencoder
-Summary(pl):	Gmencoder - nak³adka na mencoder
+Summary(pl.UTF-8):   Gmencoder - nakÅ‚adka na mencoder
 Name:		gmencoder
 Version:	0.1.0
 Release:	0.2
@@ -25,11 +25,11 @@ of the output codecs as well as postprocesing, cropping, scale,
 subtitles ripping, 1, 2 and 3 passes for encoding and a lot of more
 options are planned.
 
-%description -l pl
-Gmencoder jest graficzna nak³adk± na mplayer/mencoder przygotowan± do
-pracy w ¶rodowisku Gnome-2. Wspiera wiele kodeków, skalowanie obrazu,
-wyci±ganie napisów, 1-, 2- a tak¿e 3-przebiegow± kompresjê. Wiele
-innych pomys³ów czeka na implementacjê.
+%description -l pl.UTF-8
+Gmencoder jest graficzna nakÅ‚adkÄ… na mplayer/mencoder przygotowanÄ… do
+pracy w Å›rodowisku Gnome-2. Wspiera wiele kodekÃ³w, skalowanie obrazu,
+wyciÄ…ganie napisÃ³w, 1-, 2- a takÅ¼e 3-przebiegowÄ… kompresjÄ™. Wiele
+innych pomysÅ‚Ã³w czeka na implementacjÄ™.
 
 %prep
 %setup -q
