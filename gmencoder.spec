@@ -2,7 +2,7 @@
 # - make desktop file
 #
 Summary:	Gmencoder - front-end to mencoder
-Summary(pl.UTF-8):   Gmencoder - nakładka na mencoder
+Summary(pl.UTF-8):	Gmencoder - nakładka na mencoder
 Name:		gmencoder
 Version:	0.1.0
 Release:	0.2
