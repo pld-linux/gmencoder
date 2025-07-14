@@ -33,7 +33,7 @@ innych pomysłów czeka na implementację.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__sed} -i 's,PATH_MP=.*,PATH_MP=/usr/bin,' etc/gmencoder_opts
